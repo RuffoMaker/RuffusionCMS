@@ -1,3 +1,3 @@
-FusionCMS
+RuffusionCMS
 =========
-Make sure to follow the instaltion guide on www.youname.com/install !!!
+¡¡¡ Solo tienes que seguir los pasos de la instalación en www.tupagina.com/install !!!
