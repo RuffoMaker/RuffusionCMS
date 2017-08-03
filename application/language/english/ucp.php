@@ -13,45 +13,45 @@
  */
 
 // UCP
-$lang['user_panel'] = "User panel";
-$lang['change_avatar'] = "Change avatar";
-$lang['nickname'] = "Nickname";
-$lang['location'] = "Location";
-$lang['expansion'] = "Expansion";
-$lang['account_rank'] = "Account rank";
-$lang['voting_points'] = "Voting points";
-$lang['donation_points'] = "Donation points";
-$lang['account_status'] = "Account status";
-$lang['member_since'] = "Member since";
+$lang['user_panel'] = "Panel de usuario";
+$lang['change_avatar'] = "Cambiar avatar";
+$lang['nickname'] = "Nombre de usuario";
+$lang['location'] = "Localización";
+$lang['expansion'] = "Expansión";
+$lang['account_rank'] = "Rango de cuenta";
+$lang['voting_points'] = "Puntos de Votación (PV)";
+$lang['donation_points'] = "Puntos de donación (PD)";
+$lang['account_status'] = "Estado de la cuenta";
+$lang['member_since'] = "Miembro desde:";
 
 // Avatar
-$lang['change_avatar'] = "Change avatar";
-$lang['make_use'] = "We make use of";
-$lang['provides_way'] = "which provides an easy way to maintain your avatars across the web.";
-$lang['to_change'] = "To change your avatar you need to";
-$lang['sign_up_for'] = "sign up for";
-$lang['or'] = "or";
-$lang['log_into'] = "log into";
-$lang['using_email'] = "using the following email:";
+$lang['change_avatar'] = "Cambiar avatar";
+$lang['make_use'] = "Hacemos uso de";
+$lang['provides_way'] = "lo que nos da una una manera sencilla de mantener tu avatar en la web.";
+$lang['to_change'] = "Para cambiar el avatar necesitas";
+$lang['sign_up_for'] = "Registrarte para";
+$lang['or'] = "O";
+$lang['log_into'] = "Conectarse en";
+$lang['using_email'] = "usando el siguiente mail:";
 
 // Settings
-$lang['settings'] = "Account settings";
+$lang['settings'] = "Configuración de cuenta";
 
-$lang['nickname_error'] = "Nickname must be between 4 and 14 characters long and may only contain letters and numbers";
+$lang['nickname_error'] = "El nombre de usuario debe tenerentre 4 y 14 carácteres y estos deben ser alfanuméricos";
 $lang['location_error'] = "Location may only be up to 32 characters long and may only contain letters";
-$lang['pw_doesnt_match'] = "Passwords doesn't match!";
-$lang['changes_saved'] = "Changes have been saved!";
-$lang['invalid_pw'] = "Incorrect password!";
-$lang['nickname_taken'] = "Nickname is already taken";
-$lang['invalid_language'] = "Invalid language";
+$lang['pw_doesnt_match'] = "¡Las contraseñas no coinciden!";
+$lang['changes_saved'] = "¡Los cambios han sido cambiados!";
+$lang['invalid_pw'] = "¡Contraseña incorrecta!";
+$lang['nickname_taken'] = "El nombre de usuario ya está cojido";
+$lang['invalid_language'] = "Lenguaje incorrecto";
 
 // Change expansion
-$lang['change_expansion'] = "Change expansion";
-$lang['expansion_changed'] = "Your expansion has been changed.";
-$lang['back_to_ucp'] = "Click here to go back to the User panel!";
-$lang['invalid_expansion'] = "The expansion you selected does not exists!";
-$lang['expansion'] = "Expansion";
-$lang['none'] = "None";
+$lang['change_expansion'] = "Cambiar expansión";
+$lang['expansion_changed'] = "Tu expansión ha sido cambiada.";
+$lang['back_to_ucp'] = "¡Click aquí para volver al panel de control del usuario!";
+$lang['invalid_expansion'] = "La expansión que has seleccionado no existe!";
+$lang['expansion'] = "Expansión";
+$lang['none'] = "Ninguna";
 
 /**
  * Only translate these if World of Warcraft does it themselves,

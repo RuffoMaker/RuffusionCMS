@@ -12,12 +12,12 @@
  *	will automatically look in that folder too.
  */
 
-$lang['vote_panel'] = "Vote panel";
-$lang['topsite'] = "Topsite";
-$lang['value'] = "Value";
-$lang['vote_now'] = "Vote now!";
-$lang['remaining'] = "remaining";
-$lang['voting_point'] = "voting point";
-$lang['voting_points'] = "voting points";
-$lang['hours_remaining'] = "hours remaining";
-$lang['already_voted'] = "You have already voted";
+$lang['vote_panel'] = "Panel de votación";
+$lang['topsite'] = "Sitio top";
+$lang['value'] = "Valor";
+$lang['vote_now'] = "¡Vota ahora!";
+$lang['remaining'] = "restante";
+$lang['voting_point'] = "punto de votación";
+$lang['voting_points'] = "puntos de votación";
+$lang['hours_remaining'] = "horas restantes";
+$lang['already_voted'] = "Ya has votado";

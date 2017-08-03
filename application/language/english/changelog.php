@@ -12,11 +12,11 @@
  *	will automatically look in that folder too.
  */
 
-$lang['changelog_title'] = "Changelog";
-$lang['changes_made_on'] = "Changes made on";
-$lang['no_changes'] = "There are no changes to show.";
-$lang['change_info'] = "What have you done?";
-$lang['category_name'] = "Category name";
-$lang['new_change'] = "New change";
-$lang['new_category'] = "New category";
-$lang['add'] = "Add";
+$lang['changelog_title'] = "Lista de cambios";
+$lang['changes_made_on'] = "Cambios realizados en";
+$lang['no_changes'] = "No hay ningún cambio a mostrar.";
+$lang['change_info'] = "¿Que has hecho?";
+$lang['category_name'] = "Nombre de la categoría";
+$lang['new_change'] = "Nuevo cambio";
+$lang['new_category'] = "Nueva categoría";
+$lang['add'] = "Añdir";

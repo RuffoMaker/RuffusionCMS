@@ -30,7 +30,7 @@ CREATE TABLE `articles` (
 -- ----------------------------
 -- Records of articles
 -- ----------------------------
-INSERT INTO `articles` VALUES ('1', 'Welcome to your new FusionCMS powered website!', 'Your website has been successfully installed and we, the FusionCMS team, sincerely hope that you will have a nice time using it.<div><br></div><div>To proceed, log into the administrator panel using an administrator account and the security code you specified during the installation.</div><div><br></div><div>If you run into problems, please contact us via the <a href=\"http://fusion.raxezdev.com\" target=\"_blank\">FusionHub</a>.</div><div><br></div><div>Best regards,</div><div>the FusionCMS team</div>', '1344607279', '1', '', '-1');
+INSERT INTO `articles` VALUES ('1', '¡Bienvenido a tu nueva web RuffusionCMS!', 'Tu web ha sido instalada correctamente y nosotros, el equipo de desarrollo de FusionCMS, queremos desear que disfrutes usándola.<div><br></div><div>Para continuar, logueate en el panel de administración con tu usuario y contraseña.</div><div><br></div><div>Si tienes cualquier problema, no dudes en hacérmelo saber escribiendome a Ruffomaker@gmail.com.</div><div><br></div><div>¡¡Por Azeroth!!,</div><div>el equipo de desarrollo de RuffusionCMS.</div>', '1344607279', '1', '', '-1');
 
 -- ----------------------------
 -- Table structure for `changelog`
@@ -120,8 +120,8 @@ CREATE TABLE `image_slider` (
 -- Records of image_slider
 -- ----------------------------
 INSERT INTO `image_slider` VALUES ('1', '{path}slides/1.jpg', '', '', '2');
-INSERT INTO `image_slider` VALUES ('2', '{path}slides/2.jpg', 'register', 'Join the battle today! Click here to sign up!', '3');
-INSERT INTO `image_slider` VALUES ('3', '{path}slides/3.jpg', 'vote', 'Vote and be rewarded', '4');
+INSERT INTO `image_slider` VALUES ('2', '{path}slides/2.jpg', 'register', '¡Únete a la Batalla! ¡Registrate ahora!', '3');
+INSERT INTO `image_slider` VALUES ('3', '{path}slides/3.jpg', 'vote', 'Vota y obtiene tu recompensa', '4');
 INSERT INTO `image_slider` VALUES ('4', '{path}slides/4.jpg', '', '', '5');
 INSERT INTO `image_slider` VALUES ('5', '{path}slides/5.jpg', '', '', '6');
 
@@ -160,26 +160,26 @@ CREATE TABLE `menu` (
 -- ----------------------------
 -- Records of menu
 -- ----------------------------
-INSERT INTO `menu` VALUES ('1', 'Home', 'news', 'top', '1', '0', '1');
-INSERT INTO `menu` VALUES ('2', 'Register', 'register', 'top', '1', '1', '2');
-INSERT INTO `menu` VALUES ('3', 'How to connect', 'page/connect', 'top', '1', '0', '3');
-INSERT INTO `menu` VALUES ('4', 'Forum', 'forum', 'top', '1', '0', '4');
-INSERT INTO `menu` VALUES ('5', 'Sign in', 'login', 'top', '1', '1', '6');
-INSERT INTO `menu` VALUES ('6', 'User panel', 'ucp', 'top', '2', '0', '7');
-INSERT INTO `menu` VALUES ('7', 'Home', 'news', 'side', '1', '0', '8');
-INSERT INTO `menu` VALUES ('8', 'Register', 'register', 'side', '1', '1', '9');
-INSERT INTO `menu` VALUES ('9', 'How to connect', 'page/connect', 'side', '1', '0', '10');
-INSERT INTO `menu` VALUES ('10', 'Forum', 'forum', 'side', '1', '0', '11');
-INSERT INTO `menu` VALUES ('11', 'Sign in', 'login', 'side', '1', '1', '13');
-INSERT INTO `menu` VALUES ('13', 'User panel', 'ucp', 'side', '2', '0', '16');
-INSERT INTO `menu` VALUES ('16', 'Online players', 'online', 'top', '1', '0', '5');
-INSERT INTO `menu` VALUES ('17', 'Online players', 'online', 'side', '1', '0', '17');
-INSERT INTO `menu` VALUES ('18', 'Armory', 'armory', 'side', '1', '0', '19');
-INSERT INTO `menu` VALUES ('19', 'Private messages', 'messages', 'side', '2', '0', '20');
+INSERT INTO `menu` VALUES ('1', 'Inicio', 'news', 'top', '1', '0', '1');
+INSERT INTO `menu` VALUES ('2', 'Registro', 'register', 'top', '1', '1', '2');
+INSERT INTO `menu` VALUES ('3', 'Como conectarse', 'page/connect', 'top', '1', '0', '3');
+INSERT INTO `menu` VALUES ('4', 'Foro', 'forum', 'top', '1', '0', '4');
+INSERT INTO `menu` VALUES ('5', 'Iniciar Sesión', 'login', 'top', '1', '1', '6');
+INSERT INTO `menu` VALUES ('6', 'Panel de Usuario', 'ucp', 'top', '2', '0', '7');
+INSERT INTO `menu` VALUES ('7', 'Inicio', 'news', 'side', '1', '0', '8');
+INSERT INTO `menu` VALUES ('8', 'Registro', 'register', 'side', '1', '1', '9');
+INSERT INTO `menu` VALUES ('9', 'Como conectar', 'page/connect', 'side', '1', '0', '10');
+INSERT INTO `menu` VALUES ('10', 'Foro', 'forum', 'side', '1', '0', '11');
+INSERT INTO `menu` VALUES ('11', 'Iniciar Sesión', 'login', 'side', '1', '1', '13');
+INSERT INTO `menu` VALUES ('13', 'Panel de Usuario', 'ucp', 'side', '2', '0', '16');
+INSERT INTO `menu` VALUES ('16', 'Jugadores Online', 'online', 'top', '1', '0', '5');
+INSERT INTO `menu` VALUES ('17', 'Jugadores Online', 'online', 'side', '1', '0', '17');
+INSERT INTO `menu` VALUES ('18', 'Armería', 'armory', 'side', '1', '0', '19');
+INSERT INTO `menu` VALUES ('19', 'Mensajes Privados', 'messages', 'side', '2', '0', '20');
 INSERT INTO `menu` VALUES ('20', 'Changelog', 'changelog', 'side', '1', '0', '21');
-INSERT INTO `menu` VALUES ('21', 'Admin panel', 'admin', 'side', '5', '0', '18');
-INSERT INTO `menu` VALUES ('100', 'Log out', 'logout', 'side', '2', '0', '100');
-INSERT INTO `menu` VALUES ('101', 'Log out', 'logout', 'top', '2', '0', '101');
+INSERT INTO `menu` VALUES ('21', 'Panel de Administración', 'admin', 'side', '5', '0', '18');
+INSERT INTO `menu` VALUES ('100', 'Cerrar Sesión', 'logout', 'side', '2', '0', '100');
+INSERT INTO `menu` VALUES ('101', 'Cerrar Sesión', 'logout', 'top', '2', '0', '101');
 
 -- ----------------------------
 -- Table structure for `monthly_income`
@@ -235,7 +235,7 @@ CREATE TABLE `pages` (
 -- ----------------------------
 -- Records of pages
 -- ----------------------------
-INSERT INTO `pages` VALUES ('3', 'connect', 'How to connect', '<b>1.</b> First of all, you must create an account.\nThe account is used to log into both the game and our website. <a href=\"http://81.231.122.182/projects/FusionCMS_V6/register\">Click here</a> to open the registration page. \n<br>\n<br>\n<b>2.</b> Install World of Warcraft. \nYou can download it (legally) from here: <a href=\"https://www.worldofwarcraft.com/account/download/clients/pc/InstallWoW.exe\" target=\"_blank\">Windows</a> or <a href=\"https://www.worldofwarcraft.com/account/download/clients/mac/InstallWoW.zip\" target=\"_blank\">Mac</a>.\nMake sure to upgrade to our current supported patch, which is 3.3.5 (build 12340).\nPatch mirrors can be found <a href=\"http://www.wowwiki.com/Patch_mirrors\" target=\"_blank\">here</a>.\n<br>\n<br>\n<b>3.</b> Open up the \"World of Warcraft\" directory. The default directory is \"C:\\Program Files\\World of Warcraft\". \nWhen you\'ve found it, open up the directory called \"data\", then go into the directory called either enUS or enGB, depending on your client language.\n<br>\n<br>\n<b>4.</b> Open up the file called \"realmlist.wtf\" with a text editor such as Notepad. To do this, you must right click on the file and choose properties, then select notepad as the default software for files with the \".wtf\" ending. You may also just start the text editor and drag the file into the edit window.\n<br>\n<br>\n<b>5.</b> Erase all text and change it to:\n\n<div style=\"padding:30px;display:block;font-weight:bold;\">set realmlist logon.myserver.com (edit from admin panel -&gt; pages)</div>\n\n<b>You may now start playing! If you need any help, do not hesitate to create a support ticket.</b>', '1');
+INSERT INTO `pages` VALUES ('3', 'connect', 'Como Conectarse', '<b>1.</b> Para empezar, debes crear una cuenta.\nLa cuenta se usa para poder iniciar sesión en la web y en el juego. <a href=\"/register\">Haz click aquí</a> para registrarte. \n<br>\n<br>\n<b>2.</b> Instalar World of Warcraft. \nPuedes descargarlo desde aquí: <a href=\"https://www.worldofwarcraft.com/account/download/clients/pc/InstallWoW.exe\" target=\"_blank\">Windows</a> o <a href=\"https://www.worldofwarcraft.com/account/download/clients/mac/InstallWoW.zip\" target=\"_blank\">Mac</a>.\nAsegurate de que tienes el parche correcto instalado, es el 3.3.5 (build 12340).\nPuedes encontrar los parches <a href=\"http://www.wowwiki.com/Patch_mirrors\" target=\"_blank\">aquí</a>.\n<br>\n<br>\n<b>3.</b> Abre la carpeta donde tienes guardado el juego de \"World of Warcraft\". \nUna vez dentro, abre la carpeta que se llama \"data\", y dentro de esta entra a la carpeta llamada \"esES\" o \"esMX\".\n<br>\n<br>\n<b>4.</b> Abre el archivo \"realmlist.wtf\" con cualquier editor de texto como el block de notas de windows. \n<br>\n<br>\n<b>5.</b> Borra todo lo que hay escrito dentro y escribe lo siguiente:\n\n<div style=\"padding:30px;display:block;font-weight:bold;\">set realmlist logon.ruffoschool.com</div>\n\n<b>¡Abre el juego y comienza a tu aventura! Si necesitas ayuda, no dudes en poner un ticket.</b>', '1');
 
 -- ----------------------------
 -- Table structure for `paygol_logs`
@@ -336,12 +336,12 @@ CREATE TABLE `ranks` (
 -- ----------------------------
 -- Records of ranks
 -- ----------------------------
-INSERT INTO `ranks` VALUES ('1', 'Guest', '-1', '0', '0', '0', '0');
-INSERT INTO `ranks` VALUES ('2', 'Player', '0', '0', '0', '0', '0');
-INSERT INTO `ranks` VALUES ('3', 'Game master', '1', '1', '0', '0', '0');
-INSERT INTO `ranks` VALUES ('4', 'Developer', '2', '1', '1', '0', '0');
-INSERT INTO `ranks` VALUES ('5', 'Administrator', '3', '1', '1', '1', '0');
-INSERT INTO `ranks` VALUES ('6', 'Owner', '4', '1', '1', '1', '1');
+INSERT INTO `ranks` VALUES ('1', 'Invitado', '-1', '0', '0', '0', '0');
+INSERT INTO `ranks` VALUES ('2', 'Jugador', '0', '0', '0', '0', '0');
+INSERT INTO `ranks` VALUES ('3', 'Maestro de Juego', '1', '1', '0', '0', '0');
+INSERT INTO `ranks` VALUES ('4', 'Desarrollador', '2', '1', '1', '0', '0');
+INSERT INTO `ranks` VALUES ('5', 'Administrador', '3', '1', '1', '1', '0');
+INSERT INTO `ranks` VALUES ('6', 'Propietario', '4', '1', '1', '1', '1');
 
 -- ----------------------------
 -- Table structure for `realms`
@@ -396,9 +396,9 @@ CREATE TABLE `sideboxes` (
 -- ----------------------------
 -- Records of sideboxes
 -- ----------------------------
-INSERT INTO `sideboxes` VALUES ('1', 'status', 'Server status', '1', '2');
-INSERT INTO `sideboxes` VALUES ('2', 'info_login', 'User area', '2', '1');
-INSERT INTO `sideboxes` VALUES ('3', 'shoutbox', 'Shout box', '1', '3');
+INSERT INTO `sideboxes` VALUES ('1', 'status', 'Estado del Servidor', '1', '2');
+INSERT INTO `sideboxes` VALUES ('2', 'info_login', 'Mi Usuario', '2', '1');
+INSERT INTO `sideboxes` VALUES ('3', 'shoutbox', 'Chat', '1', '3');
 
 -- ----------------------------
 -- Table structure for `sideboxes_custom`
@@ -6988,9 +6988,9 @@ CREATE TABLE `store_groups` (
 -- ----------------------------
 -- Records of store_groups
 -- ----------------------------
-INSERT INTO `store_groups` VALUES ('1', 'Warrior weapons');
-INSERT INTO `store_groups` VALUES ('2', 'Test group');
-INSERT INTO `store_groups` VALUES ('3', 'Warglaives');
+INSERT INTO `store_groups` VALUES ('1', 'Armas de Guerrero');
+INSERT INTO `store_groups` VALUES ('2', 'Test');
+INSERT INTO `store_groups` VALUES ('3', 'Armas de Guerra');
 
 -- ----------------------------
 -- Table structure for `store_items`
@@ -7067,7 +7067,7 @@ CREATE TABLE `vote_log` (
 DROP TABLE IF EXISTS `vote_sites`;
 CREATE TABLE `vote_sites` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
-  `vote_sitename` varchar(50) DEFAULT 'FusionCMS',
+  `vote_sitename` varchar(50) DEFAULT 'RuffusionCMS',
   `vote_url` varchar(255) DEFAULT 'http://',
   `vote_image` varchar(255) DEFAULT NULL,
   `hour_interval` int(10) NOT NULL DEFAULT '12',

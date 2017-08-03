@@ -12,8 +12,8 @@
  *	will automatically look in that folder too.
  */
 
-$lang['show_results'] = "Show results";
-$lang['no_answers'] = "This question has no answers";
-$lang['no_poll'] = "There is currently no active poll";
-$lang['show_options'] = "Show options";
-$lang['log_in'] = "Please log in to vote!";
+$lang['show_results'] = "Mostrar resultados";
+$lang['no_answers'] = "Essta pregunta no tiene respuesta";
+$lang['no_poll'] = "No hay encuestas activas";
+$lang['show_options'] = "Mostrar opciones";
+$lang['log_in'] = "¡Por favor, conectate para votar!";

@@ -12,11 +12,11 @@
  *	will automatically look in that folder too.
  */
 
-$lang['log_in'] = "Log in";
-$lang['user_doesnt_exist'] = "User doesn\'t exist";
-$lang['password_doesnt_match'] = "Password doesn\'t match";
-$lang['username'] = "Username";
-$lang['password'] = "Password";
-$lang['remember_me'] = "Check this if you want to stay signed in";
-$lang['remember_me_short'] = "Keep me signed in";
-$lang['lost_your_password'] = "Have you lost your password?";
+$lang['log_in'] = "Conectarse";
+$lang['user_doesnt_exist'] = "El usuario no existe";
+$lang['password_doesnt_match'] = "La constraseña no coincide";
+$lang['username'] = "Nombre de usuario";
+$lang['password'] = "Contraseña";
+$lang['remember_me'] = "Click aquí si quieres mantenerte siempre conectado";
+$lang['remember_me_short'] = "Mantenme conectado";
+$lang['lost_your_password'] = "¿Has perdido tu contraseña?";

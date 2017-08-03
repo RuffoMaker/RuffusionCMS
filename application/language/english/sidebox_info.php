@@ -12,13 +12,13 @@
  *	will automatically look in that folder too.
  */
 
-$lang['expansion'] = "Expansion";
-$lang['last_ip'] = "Last IP";
-$lang['current_ip'] = "Current IP";
-$lang['vp'] = "VP";
-$lang['dp'] = "DP";
-$lang['user_panel'] = "User panel";
-$lang['log_out'] = "Log out";
-$lang['username'] = "Username";
-$lang['password'] = "Password";
-$lang['log_in'] = "Log in!";
+$lang['expansion'] = "Expansión";
+$lang['last_ip'] = "Última IP";
+$lang['current_ip'] = "IP actual";
+$lang['vp'] = "PV";
+$lang['dp'] = "PD";
+$lang['user_panel'] = "Panel de usuario";
+$lang['log_out'] = "Desconectarse";
+$lang['username'] = "Nombre de usuario";
+$lang['password'] = "Contraseña";
+$lang['log_in'] = "¡Coenctarse!";

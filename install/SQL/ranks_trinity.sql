@@ -32,9 +32,9 @@ CREATE TABLE `ranks` (
 -- ----------------------------
 -- Records of ranks
 -- ----------------------------
-INSERT INTO `ranks` VALUES ('1', 'Guest', '-1', '0', '0', '0', '0');
-INSERT INTO `ranks` VALUES ('2', 'Player', '0', '0', '0', '0', '0');
-INSERT INTO `ranks` VALUES ('3', 'Game master', '1', '1', '0', '0', '0');
-INSERT INTO `ranks` VALUES ('4', 'Developer', '2', '1', '1', '0', '0');
-INSERT INTO `ranks` VALUES ('5', 'Administrator', '3', '1', '1', '1', '0');
-INSERT INTO `ranks` VALUES ('6', 'Owner', '4', '1', '1', '1', '1');
+INSERT INTO `ranks` VALUES ('1', 'Invitado', '-1', '0', '0', '0', '0');
+INSERT INTO `ranks` VALUES ('2', 'Jugador', '0', '0', '0', '0', '0');
+INSERT INTO `ranks` VALUES ('3', 'Maestro de Juego', '1', '1', '0', '0', '0');
+INSERT INTO `ranks` VALUES ('4', 'Desarrollador', '2', '1', '1', '0', '0');
+INSERT INTO `ranks` VALUES ('5', 'Administrador', '3', '1', '1', '1', '0');
+INSERT INTO `ranks` VALUES ('6', 'Propietario', '4', '1', '1', '1', '1');

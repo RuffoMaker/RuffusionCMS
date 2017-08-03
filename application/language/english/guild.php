@@ -12,10 +12,10 @@
  *	will automatically look in that folder too.
  */
 
-$lang['invalid'] = "No guild or realm specified!";
-$lang['invalid_guild'] = "Invalid guild";
-$lang['armory'] = "Armory";
-$lang['no_motd'] = "This guild has no message of the day.";
-$lang['members'] = "members";
-$lang['leader'] = "Leader";
-$lang['doesnt_exist'] = "The requested guild does not exist";
+$lang['invalid'] = "¡No has especificado reino o hermandad!";
+$lang['invalid_guild'] = "Hermandad no válida";
+$lang['armory'] = "Armeria";
+$lang['no_motd'] = "Esta hermandad no tiene mensaje del día.";
+$lang['members'] = "Miembros";
+$lang['leader'] = "Líder";
+$lang['doesnt_exist'] = "La guild que buscas no existe";

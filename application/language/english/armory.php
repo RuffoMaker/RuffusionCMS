@@ -12,24 +12,24 @@
  *	will automatically look in that folder too.
  */
 
-$lang['search_title'] = "Search";
-$lang['search_headline'] = "Armory search";
-$lang['search_placeholder'] = "Search characters, items and guilds...";
-$lang['search_button'] = "Search";
-$lang['search_too_short'] = "Search string must be longer than 2 characters!";
-$lang['characters'] = "Characters";
-$lang['items'] = "Items";
-$lang['guilds'] = "Guilds";
-$lang['no_characters_found'] = "No characters found";
-$lang['no_items_found'] = "No items found";
-$lang['no_guilds_found'] = "No guilds found";
-$lang['name'] = "Name";
-$lang['members'] = "Members";
-$lang['owner'] = "Owner";
-$lang['realm'] = "Realm";
-$lang['level'] = "Level";
-$lang['required'] = "Required";
-$lang['type'] = "Type";
-$lang['view_character_profile'] = "View character profile";
-$lang['cant_be_empty'] = "Search field can't be empty!";
-$lang['misc'] = "Miscellaneous";
+$lang['search_title'] = "Buscar";
+$lang['search_headline'] = "Buscar en la armería";
+$lang['search_placeholder'] = "Buscar personajes, Objetos y hermandades...";
+$lang['search_button'] = "Buscar";
+$lang['search_too_short'] = "¡Debe haber al menos 2 carácteres para realizar la busqueda!";
+$lang['characters'] = "Personajes";
+$lang['items'] = "Objetos";
+$lang['guilds'] = "Hermandades";
+$lang['no_characters_found'] = "No se han encontrado personajes";
+$lang['no_items_found'] = "No se han encontrado objetos";
+$lang['no_guilds_found'] = "No se han encontrado hermandades";
+$lang['name'] = "Nombre";
+$lang['members'] = "Miembros";
+$lang['owner'] = "Dueño";
+$lang['realm'] = "Reino";
+$lang['level'] = "Nivel";
+$lang['required'] = "Requerido";
+$lang['type'] = "Tipo";
+$lang['view_character_profile'] = "Ver perfil del personaje";
+$lang['cant_be_empty'] = "¡El cuadro de busqueda no puede estar vacio!";
+$lang['misc'] = "Misceláneo";

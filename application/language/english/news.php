@@ -12,11 +12,11 @@
  *	will automatically look in that folder too.
  */
 
-$lang['type_comment'] = "Type a comment...";
-$lang['characters'] = "characters";
-$lang['submit'] = "Submit comment";
-$lang['log_in'] = "Please log in to comment";
-$lang['view_profile'] = "View profile";
-$lang['comments'] = "Comments";
-$lang['posted_by'] = "Posted by";
-$lang['on'] = "on"; /* Posted by Jesper >on< 2013/01/29 */
+$lang['type_comment'] = "Escribe un comentario...";
+$lang['characters'] = "Carácteres";
+$lang['submit'] = "Enviar comentario";
+$lang['log_in'] = "Por favor, conéctate para dejar un comentario";
+$lang['view_profile'] = "Ver perfil";
+$lang['comments'] = "Comentarios";
+$lang['posted_by'] = "Posteado por";
+$lang['on'] = "el"; /* Posteado por Jesper >el< 2013/01/29 */
