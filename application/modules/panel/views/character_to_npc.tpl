@@ -1,7 +1,8 @@
 {form_open('character_to_npc', 'class="page_form"')}
+	<h2>Personaje a NPC</h2>
 	<table style="width:80%">
 		<tr>
-			<td><label for="character_to_npc_name">Name</label></td>
+			<td><label for="character_to_npc_name">Nombre del Personaje:</label></td>
 			<td>
 				<input type="text" name="character_to_npc_name" id="character_to_npc_name" value="{set_value('character_to_npc_name')}" />
 			</td>
