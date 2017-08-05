@@ -4,10 +4,11 @@ class Ucp extends MX_Controller
 	public function __construct()
 	{
 		parent::__construct();
+		requirePermission("view");
 	}
 
 	public function index()
 	{
-		echo "hola";
+		$this->template->setTitle($this->username);
 	}
 }
