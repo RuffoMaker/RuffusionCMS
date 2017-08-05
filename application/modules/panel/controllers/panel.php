@@ -1,5 +1,5 @@
 <?php
-class Ucp extends MX_Controller
+class Panel extends MX_Controller
 {
 	public function __construct()
 	{
