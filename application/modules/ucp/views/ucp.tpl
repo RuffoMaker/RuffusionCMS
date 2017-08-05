@@ -103,7 +103,7 @@
 		<a href="{$url}{$config.admin}" style="background-image:url({$url}application/modules/ucp/images/admin_panel.jpg)"></a>
 	{/if}
 
-	{if hasPermission('view', "admin") && $config['panel']}
+	{if hasPermission('view', "admin") && $config['admin']}
 		<a href="{$url}{$config.panel}" style="background-image:url({$url}application/modules/ucp/images/admin_panel.jpg)"></a>
 	{/if}
 	
