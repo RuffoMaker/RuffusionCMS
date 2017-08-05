@@ -1,5 +1,5 @@
 <?php
-class Panel extends MX_Controller
+class Autohook extends MX_Controller
 {
 	public function __construct()
 	{
