@@ -1,5 +1,7 @@
 <?php
 
+header('Content-Type: text/html; charset=utf-8');
+
 if(is_dir(__DIR__."/install") && !file_exists(__DIR__."/install/.lock"))
 {
 	header("Location: install");
