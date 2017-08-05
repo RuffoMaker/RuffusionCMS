@@ -60,6 +60,7 @@ class Ucp extends MX_Controller
 				"teleport" => $this->config->item('ucp_teleport'),
 				"admin" => $this->config->item('ucp_admin'),
 				"gm" => $this->config->item('ucp_gm')
+				"panel" => $this->config->item('ucp_panel')
 			)
 		);
 
