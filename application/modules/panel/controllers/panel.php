@@ -18,8 +18,16 @@ class Panel extends MX_Controller
 	}
 
 	public function character_to_npc(){
-		$this->template->setTitle('Personaje a NPC');
-		$page = $this->template->loadPage("character_to_npc.tpl", array());
-		$this->template->view($page);
+		if(count($_POST))
+		{
+			$this->template->setTitle('POSTED Personaje a NPC');
+			$page = $this->template->loadPage("character_to_npc.tpl", array());
+			$this->template->view($page);
+		}
+		else{
+			$this->template->setTitle('Personaje a NPC');
+			$page = $this->template->loadPage("character_to_npc.tpl", array());
+			$this->template->view($page);
+		}
 	}
 }
