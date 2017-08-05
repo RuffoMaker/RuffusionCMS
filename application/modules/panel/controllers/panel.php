@@ -9,6 +9,6 @@ class Ucp extends MX_Controller
 
 	public function index()
 	{
-		$this->template->setTitle($this->username);
+		$this->load->view("panel");
 	}
 }
