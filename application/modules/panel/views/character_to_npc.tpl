@@ -1,5 +1,5 @@
 <article>
-	{form_open('character_to_npc', 'class="page_form"')}
+	{form_open('panel/character_to_npc', 'class="page_form"')}
 		<h1 class="top">Personaje a NPC</h1>
 		<table style="width:80%">
 			<tr>
