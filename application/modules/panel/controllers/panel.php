@@ -9,6 +9,6 @@ class Ucp extends MX_Controller
 
 	public function index()
 	{
-		$this->load->view("panel");
+		return $this->template->loadPage("panel.tpl");
 	}
 }
