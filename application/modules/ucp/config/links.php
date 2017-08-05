@@ -12,3 +12,4 @@ $config['ucp_expansion'] = "ucp/expansion";
 $config['ucp_teleport'] = "teleport";
 $config['ucp_gm'] = "gm";
 $config['ucp_admin'] = "admin";
+$config['ucp_panel'] = "panel";
