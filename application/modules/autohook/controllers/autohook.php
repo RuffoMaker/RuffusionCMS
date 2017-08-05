@@ -12,7 +12,7 @@ class Autohook extends MX_Controller
   		shell_exec( 'cd /home2/zarabits/www/ruffoschool.com && git pull' );
 		}
 		else{
-			echo "asd";
+			echo "No permitido";
 		}
 	}
 }
