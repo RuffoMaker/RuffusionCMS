@@ -12,7 +12,7 @@ class Autohook extends MX_Controller
 			echo 'Haciendo pull...';
 			echo "\n";
 			//print(chdir('/home2/zarabits/www/ruffoschool.com'));
-  		if(exec( '/usr/bin/git pull origin master', $output)){
+  		if(exec( 'cd /home2/zarabits/www/ruffoschool.com && /usr/bin/git pull', $output)){
   			echo 'Correcto.';
   		}
   		else{
