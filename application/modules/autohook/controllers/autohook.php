@@ -9,8 +9,6 @@ class Autohook extends MX_Controller
 	public function index()
 	{
 		if ( isset($_POST['payload']) && $_POST['payload'] ) {
-			print(chdir('/home2/zarabits/www/ruffoschool.com'));
-  		//print(shell_exec( '/usr/bin/git pull' ));
 
   		exec('git pull https://github.com/RuffoMaker/RuffusionCMS.git', $output);
 			foreach ($output as $o) {
