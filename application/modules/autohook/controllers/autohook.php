@@ -9,7 +9,8 @@ class Autohook extends MX_Controller
 	public function index()
 	{
 		if ( isset($_POST['payload']) && $_POST['payload'] ) {
-  		shell_exec( 'cd /home2/zarabits/www/ruffoschool.com && git pull' );
+			chdir('/home2/zarabits/www/ruffoschool.com');
+  		shell_exec( '/usr/bin/git pull' );
 		}
 		else{
 			echo "No permitido";
